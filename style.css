@@ -21,16 +21,24 @@ h1 {
   margin-bottom: 0.5rem;
 }
 nav {
-  margin-top: 0.5rem;
+  background-color: #2C2C2C; /* Deep charcoal */
+  padding: 10px 0;
+  text-align: center;
 }
+
 nav a {
-  color: white;
-  margin: 0 0.5rem;
+  color: #FFFFFF; /* White text */
   text-decoration: none;
-  font-weight: bold;
+  margin: 0 15px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
 }
-nav a:hover {
-  text-decoration: underline;
+
+nav a:hover,
+nav a.active {
+  color: #C8A951; /* Warm gold accent */
+  border-bottom: 2px solid #C8A951;
 }
 
 section {
