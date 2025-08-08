@@ -5,11 +5,12 @@ body {
   color: #333;
 }
 header {
-  background: linear-gradient(135deg, #2C2C2C, #1a1a1a); /* dark to darker */
+  background: linear-gradient(135deg, #6B1D1D, #2C2C2C); /* deep red to charcoal */
   color: #FFFFFF;
   padding: 20px;
   text-align: center;
 }
+
 h1 {
   margin: 0.2rem 0;
   font-size: 2.2rem;
