@@ -5,7 +5,7 @@ body {
   color: #333;
 }
 header {
-  background-color: #2C2C2C; /* Deep charcoal */
+  background: linear-gradient(135deg, #2C2C2C, #1a1a1a); /* dark to darker */
   color: #FFFFFF;
   padding: 20px;
   text-align: center;
