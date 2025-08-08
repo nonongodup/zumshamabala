@@ -5,10 +5,10 @@ body {
   color: #333;
 }
 header {
-  background: linear-gradient(to right, #003366, #8e1b1b, #468966, #ffcc00, #ffffff);
-  color: white;
+  background-color: #2C2C2C; /* Deep charcoal */
+  color: #FFFFFF;
+  padding: 20px;
   text-align: center;
-  padding: 2rem 1rem;
 }
 h1 {
   margin: 0.2rem 0;
